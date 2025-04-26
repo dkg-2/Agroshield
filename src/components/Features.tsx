@@ -1,4 +1,3 @@
-
 import { Leaf, BarChart2, Compass } from "lucide-react";
 
 const Features = () => {
@@ -21,25 +20,28 @@ const Features = () => {
   ];
 
   return (
-    <section id="features" className="py-16 bg-white">
-      <div className="container mx-auto px-4">
+    <section id="features" className="py-16">
+      <div className="content-overlay container mx-auto px-4 py-8 rounded-xl">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Features That Help Your <span className="gradient-text">Crops Thrive</span>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-emerald-900">
+            Features That Help Your <span className="text-agro-green-dark">Crops Thrive</span>
           </h2>
-          <p className="text-lg text-gray-700 max-w-2xl mx-auto">
+          <p className="text-lg text-emerald-800 max-w-2xl mx-auto">
             AgroShield combines cutting-edge AI technology with agricultural expertise to provide you with tools that make a real difference.
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {features.map((feature, index) => (
-            <div key={index} className="bg-gray-50 rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow duration-300 border border-gray-100">
-              <div className="bg-agro-green-light/10 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
+            <div 
+              key={index} 
+              className="bg-white/5 p-8 rounded-xl border-2 border-agro-green-medium/20 hover:border-agro-green-medium/40 transition-all duration-300"
+            >
+              <div className="bg-agro-green-light/10 w-16 h-16 rounded-lg flex items-center justify-center mb-6 backdrop-blur-sm">
                 {feature.icon}
               </div>
-              <h3 className="text-xl font-semibold mb-3">{feature.title}</h3>
-              <p className="text-gray-700">{feature.description}</p>
+              <h3 className="text-xl font-semibold mb-3 text-emerald-900">{feature.title}</h3>
+              <p className="text-emerald-800">{feature.description}</p>
             </div>
           ))}
         </div>
