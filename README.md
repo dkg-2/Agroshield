@@ -19,6 +19,7 @@ Agricultural AI solution for crop disease detection and yield optimization.
 
 ## DISEASE DETECTION MODEL COLAB NOTEBOOK
 https://colab.research.google.com/drive/1AUMOm-TUhYP_vyrCBWuwXuO9gT5OIgoK?usp=sharing
+
 DATASET USED--- https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset
 
 ## CROP RECOMMENDATION MODEL COLAB NOTEBOOK
