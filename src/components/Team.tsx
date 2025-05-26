@@ -13,7 +13,7 @@ const Team = () => {
     },
     {
       name: "Bhavya Gupta",
-      role: "Presentation and Outreach Head", 
+      role: "UI/UX and Presentaion Head", 
       image: "/images/Bhavya Gupta.jpeg",
       email: "2k23.csai2310329@gmail.com",
       linkedin: "https://linkedin.com/in/bhavya-gupta-203b6a308"
