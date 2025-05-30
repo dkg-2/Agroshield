@@ -40,7 +40,7 @@ const Hero = () => {
               className="relative rounded-xl shadow-2xl z-10 w-full border-2 border-agro-green-medium/20"
             >
               <source 
-                src="/videos/hero page video.mp4" 
+                src="https://drive.google.com/uc?export=download&id=1lhVk_s0GpSWaNpY2orrLba8WgssjlHK4" 
                 type="video/mp4" 
               />
               Your browser does not support the video tag.

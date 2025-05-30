@@ -7,28 +7,28 @@ const Team = () => {
     {
       name: "Divyanshi Singh",
       role: "AIML and Frontend Lead",
-      image: "/images/Divyanshi Singh.jpeg",
+      image: "https://drive.google.com/uc?export=download&id=1WB2-434X7V0Sa5aEVlUVGP-IpstZSqaP",
       email: "2k23.csai2313898@gmail.com",
       linkedin: "https://linkedin.com/in/divyanshi-singh-503456327"
     },
     {
       name: "Bhavya Gupta",
       role: "UI/UX and Presentaion Head", 
-      image: "/images/Bhavya Gupta.jpeg",
+      image: "https://drive.google.com/uc?export=download&id=17-Rn-TbJzx-JBPzxi6PBec1HWuaJ36Hq",
       email: "2k23.csai2310329@gmail.com",
       linkedin: "https://linkedin.com/in/bhavya-gupta-203b6a308"
     },
     {
       name: "Ayushi Shukla",
       role: "UI/UX Specialist",
-      image: "/images/Ayushi Shukla.jpeg", 
+      image: "https://drive.google.com/uc?export=download&id=1-ZwPQ9UdweO-SzjRZB11vERy9lFhlhP4", 
       email: "2k23.csai2313123@gmail.com",
       linkedin: "https://www.linkedin.com/in/ayushi-shukla-041375317"
     },
     {
       name: "Divyansh Gaur",
       role: "AIML and Full Stack Architect",
-      image: "/images/Divyansh Gaur.jpeg",
+      image: "https://drive.google.com/uc?export=download&id=1spftNAUxYjKpaDC7PkXQisGCxLQ1YYcm",
       email: "2k23.csai2313599@gmail.com",
       linkedin: "https://linkedin.com/in/divyansh-gaur-665978308"
     },
